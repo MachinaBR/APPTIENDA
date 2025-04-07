@@ -3,16 +3,17 @@ public class Invetario {
     private String nombre;
     private int cantidad;
     private double precio;
-    private int stock;
     private String proveedor;
+    private String categoria;
 
-    public Invetario (int id, String nombre, int cantidad, double precio, int stock, String proveedor){
+
+    public Invetario (int id, String nombre, int cantidad, double precio, String proveedor, String categoria){
         this.id = id;
         this.nombre = nombre;
         this.cantidad = cantidad;
         this.precio = precio;
-        this.stock = stock;
         this.proveedor = proveedor;
+        this.categoria = categoria;
 
 }
 
@@ -48,14 +49,6 @@ public class Invetario {
         this.precio = precio;
     }
 
-    public int getStock() {
-        return stock;
-    }
-
-    public void setStock(int stock) {
-        this.stock = stock;
-    }
-
     public String getProveedor() {
         return proveedor;
     }
@@ -64,5 +57,16 @@ public class Invetario {
         this.proveedor = proveedor;
     }
 
+    public String getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
+    }
+
+
+    
 }
+
 

@@ -4,9 +4,9 @@ import java.sql.SQLException;
 
 public class ConexionDB {
     
-    private static final String URL = "jdbc:mysql://localhost:3306/mi_basedatos";
+    private static final String URL = "jdbc:mysql://localhost:3306/invetario_tiendacoco";
     private static final String USUARIO = "root";
-    private static final String CLAVE = "1234";
+    private static final String CLAVE = "12345";
 
     public static Connection conectar() {
         try {
