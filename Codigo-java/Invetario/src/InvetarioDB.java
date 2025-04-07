@@ -25,4 +25,14 @@ public class InvetarioDB {
 
     }
     }
+
+    public static void actualizarProducto(int idActualizar, String nuevoNombre, int nuevaCantidad, double nuevoPrecio) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'actualizarProducto'");
+    }
+
+	public static void eliminarProducto(int idEliminar) {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'eliminarProducto'");
+	}
 }
